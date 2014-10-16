@@ -18,11 +18,11 @@
                     <g:link controller="repository" action="index"><g:message code="nav.label" args="['Images']"/></g:link>
                 </li>
             </ul>
-
+            <!--
             <g:form class="navbar-form navbar-right" controller="search" action="search" method="GET">
                 <input name="q" type="text" placeholder="Search images..." size="40" class="form-control col-lg-8">
             </g:form>
-
+            -->
         </div>
     </div>
 </div>

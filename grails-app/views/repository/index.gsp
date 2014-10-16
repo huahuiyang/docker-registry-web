@@ -39,10 +39,10 @@
                             </g:link> |
                             <a href="#" class="pullImg" data-pullName='<util:generatePullName registry="${entry.registry}" repoName="${repo.name}" tag="${tag.name}"/>'>
                                 <asset:image src="icons/book_download.png"/>
-                            </a> |
-                            <a href="#" class="deleteImg" data-registryId="${entry.registry.id}" data-repoName="${repo.name}" data-tag="${tag.name}">
+                            </a> 
+                            <!--a href="#" class="deleteImg" data-registryId="${entry.registry.id}" data-repoName="${repo.name}" data-tag="${tag.name}">
                                 <asset:image src="icons/garbage.png"/>
-                            </a>
+                            </a-->
                         </td>
                     </tr>
             </g:each>
